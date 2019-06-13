@@ -7,7 +7,7 @@ import {CandidateByCountryChart} from './charts';
 function App() {
   return (
     <div className="chart">
-        <img src={logo} className="logo"/>
+        <img src={logo} className="logo" alt="logo"/>
         <CandidateByCountryChart />
     </div>
   );

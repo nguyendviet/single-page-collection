@@ -6,12 +6,10 @@ import {data} from './CandidateByCountryData';
 const config = {
     chart: {
         type: 'spline',
-        // scrollablePlotArea: {
-        //     scrollPositionX: 1
-        // },
-        // height: 250,
-        backgroundColor: 'transparent',
-        // maxWidth: 600,
+        scrollablePlotArea: {
+            scrollPositionX: 1
+        },
+        backgroundColor: 'transparent'
     },
     title: {
         text: data.title
@@ -20,20 +18,13 @@ const config = {
         text: data.subtitle
     },
     xAxis: {
-        // type: 'number',
-        // labels: {
-        //     overflow: 'justify'
-        // },
-        // min: data.startYear,
-        // max: data.endYear,
-        // tickInterval: 1
+        type: 'datetime'
     },
     yAxis: {
-        // type: 'number',
         title: {
             text: data.yTitle
         },
-        // minorGridLineWidth: 0,
+        minorGridLineWidth: 0,
         gridLineWidth: 0,
         alternateGridColor: null
     },
@@ -51,11 +42,11 @@ const config = {
             marker: {
                 enabled: false
             },
-            // turboThreshold: 10
-            // pointIntervalUnit: 'year'
         },
         series: {
-            connectNulls: true
+            connectNulls: true,
+            pointStart: data.startYear,
+            pointIntervalUnit: 'year'
         }
     },
     series: data.series,

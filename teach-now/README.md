@@ -1,2 +1,2 @@
 - Create a file name: `CandidateByCountryData.js` inside folder `./src/charts/`
-- The content of that file should look like in file `data-example.js`
+- The content of that file should look like in file `data.template`

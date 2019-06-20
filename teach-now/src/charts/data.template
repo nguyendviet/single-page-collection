@@ -1,0 +1,13 @@
+export const data = {
+    title: '',
+    subtitle: '',
+    yTitle: '',
+    startYear: Date.UTC(YYYY),
+    endYear: Date.UTC(YYYY),
+    series: [
+        {
+            name: 'Country',
+            data: [NUMBER, NUMBER, NUMBER]
+        }
+    ]
+}

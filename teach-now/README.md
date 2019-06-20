@@ -1,4 +1,4 @@
-- This is a [React.js app](https://reactjs.org/) created by [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started). You will need [yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) or [npm](https://www.npmjs.com/get-npm).
+- This is a [React.js](https://reactjs.org/) app created by [create-react-app](https://facebook.github.io/create-react-app/docs/getting-started). You will need [yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable) or [npm](https://www.npmjs.com/get-npm).
 - Clone this repository down to your machine with SSH:
 ```
 $ git clone git@github.com:nguyendviet/single-page-collection.git
